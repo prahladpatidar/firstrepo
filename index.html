@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prahlad</title>
+    <title>Prahlad patidar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat voluptas sint autem blanditiis, dolor velit hic magnam quibusdam saepe dolore nemo aliquam fuga nostrum vel molestiae possimus soluta iste laudantium quidem explicabo sequi? Quidem dicta nisi porro tempore quibusdam temporibus dolores voluptate culpa, in iure fugiat quae maiores cum enim?</p>
+    
+        <form action="/lajlaj">
+
+            <label for="username">username</label>
+            <input type="text" name="username" id="username" placeholder="username">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email address"> 
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender"  value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender"  value="female">
+            <label for="female">female</label>
+            <br>
+            <label for="contry">chose your contry</label>
+            <select name="" id="contry">
+                <option value="india">India</option>
+                <option value="US">US</option>
+                <option value="Chaina">Chaina</option>
+            </select>
+            <br>
+            <label for="state">select your state</label>
+            <input type="text" id="state" name="state" list="countries">
+            <datalist id="countries">
+                <option value="rajstan">Rajstan</option>
+                <option value="mp"> madya pradesh</option>
+            </datalist>
+            <br>
+            <label for="resume">Slect your resume</label>
+            <input type="file" id="resume">
+            <br>
+            <textarea name="problame" id="problame" placeholder="Any problame in time of feel form"></textarea>
+            <br>
+            <label for="t&c">plese acsept t&c for login </label>
+            <input type="checkbox" id="t&c">
+            <br>
+            <button>summit</button>
+        </form>
 </body>
 </html>
