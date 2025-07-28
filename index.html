@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prahlad patidar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Prahlad-Portfolio</title>
 </head>
 <body>
-    
-        <form action="/lajlaj">
+    <header>
+        <a href="https://prahladpatidar.netlify.app/" class="logo">Prahlad</a>
 
-            <label for="username">username</label>
-            <input type="text" name="username" id="username" placeholder="username" autocomplete="off">
-            <br>
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter your password">
-            <br>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter your email address"> 
-            <br>
-            <label for="gender">Gender</label>
-            <input type="radio" id="male" name="gender"  value="male">
-            <label for="male">male</label>
-            <input type="radio" id="female" name="gender"  value="female">
-            <label for="female">female</label>
-            <br>
-            <label for="contry">chose your contry</label>
-            <select name="" id="contry">
-                <option value="india">India</option>
-                <option value="US">US</option>
-                <option value="Chaina">Chaina</option>
-            </select>
-            <br>
-            <label for="state">select your state</label>
-            <input type="text" id="state" name="state" list="countries">
-            <datalist id="countries">
-                <option value="rajstan">Rajstan</option>
-                <option value="mp"> madya pradesh</option>
-            </datalist>
-            <br>
-            <label for="resume">Slect your resume</label>
-            <input type="file" id="resume">
-            <br>
-            <textarea name="problame" id="problame" placeholder="Any problame in time of feel form"></textarea>
-            <br>
-            <label for="t&c">plese acsept t&c for login </label>
-            <input type="checkbox" id="t&c">
-            <br>
-            <button>summit</button>
-        </form>
+        <nav>
+            <a href="https://prahladpatidar.netlify.app/" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="prahladImage.png
+            " alt="prahladImage">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Prahlad</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Motivated and detail-oriented BCA student with strong
+ knowledge of computer applications. Seeking an opportunity
+ to enhance my skills and contribute to a dynamic work
+ environment.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/prahlad-patidar/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/prahladpatidar"><i class="fa-brands fa-github"></i></a>
+                <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
 </body>
 </html>
